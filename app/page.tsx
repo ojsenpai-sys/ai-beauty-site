@@ -31,7 +31,7 @@ export default function Home() {
     formData.append("prompt", `masterpiece, beautiful japanese woman, 2025 trend, velvety matte makeup, berry lips, soft contour, feminine curve body, warm pastel clothing, breast size ${breast}, waist ${waist}, hips ${hips}, makeup intensity ${makeup}`);
 
     try {
-      const res = await fetch("https://0e71b9495d436896b8.gradio.live/api/predict", {
+      const res = await fetch("https://4f1d69fc205041800c.gradio.live/api/predict", {
         method: "POST",
         body: formData
       });
